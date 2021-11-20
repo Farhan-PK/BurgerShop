@@ -1,0 +1,15 @@
+/* NavBar */
+
+#top_nav{
+    background-color: #0b0b0b;
+    padding:0 8%;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 25px;
+}

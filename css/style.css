@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+    text-align: justify;
+}
 /* NavBar */
 
 #top_nav{
@@ -17,9 +21,10 @@
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
     font-size: 18px;
-    /* font-weight: 400; */
     text-transform: uppercase;
-    /* padding-left: 25px; */
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f64b3c;
 }
 
 #searchbox{
@@ -37,7 +42,8 @@
     background-color: #f64b3c;
     color: white;
     border-radius: 0;
-    outline-color:#f64b3c ;    position: relative;
+    outline-color:#f64b3c ;   
+     position: relative;
     left: -8px;
 }
 @media only screen and (max-width:1060px) {
@@ -57,4 +63,89 @@
         padding-bottom: 1%;
     }
     
+}
+
+/* Banner */
+#banner
+{
+    padding: 10% 0 5% 10%;
+    background-image: url('/images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+#banner-text h1{
+    font-size: 70px;
+}
+#banner-text h1>span{
+    color: #f64b3c;
+    font-weight: bold;
+}
+#banner-text p{
+    font-size: 15px;
+    margin-top:15px;
+    line-height: 2;
+}
+#btn-order
+{
+    background-color: #f64b3c;
+    color: white;
+    border: 1px solid #f64b3c;
+    width: 150px;
+    border-radius: 45px;
+}
+@media only screen and (max-width:1205px)
+{
+    #banner-text h1{
+        font-size: 60px;
+    }
+    #banner-text p{
+        font-size: 10px;
+        margin-top:10px;
+
+    }
+}
+@media only screen and (max-width:1189px)
+{
+    #banner-text h1{
+        font-size: 66px;
+    }
+    #banner-text p{
+        font-size: 10px;
+        margin-top:10px;
+    }
+}
+@media only screen and (max-width:1149px)
+{
+    #banner-text h1{
+        font-size: 65px;
+    }
+    #banner-text p{
+        font-size: 10px;
+        margin-top:10px;
+
+    }
+}
+@media only screen and (max-width:935px)
+{
+    #banner-text h1{
+        font-size: 60px;
+    }
+    #banner-text p{
+        font-size: 10px;
+        margin-top:10px;
+ 
+    }
+}
+@media only screen and (max-width:846px)
+{
+    #banner-text h1{
+        font-size: 50px;
+    }
+    #banner-text p{
+        font-size: 10px;
+        margin-top:10px;
+ 
+    }
 }
